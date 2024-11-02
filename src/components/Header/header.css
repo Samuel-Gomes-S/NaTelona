@@ -1,0 +1,47 @@
+/* Estilos header */
+.container {
+  background-color: rgb(0, 0, 0);
+  height: 90px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25%;
+  border-radius: 0 0 20px 20px;
+}
+
+.title {
+  padding: 5px;
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  text-decoration: none;
+}
+
+.button {
+  display: flex;
+  width: 100px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 2px solid #3b3b3b;
+  cursor: pointer;
+  user-select: none;
+  color: black;
+  text-decoration: none;
+}
+
+.button:hover {
+  transition: all 0.3s;
+  transform: scale(1.2);
+  border: 2px solid #ffffff;
+}
+
+.button:active {
+  background-color: #000108;
+  color: #fff;
+}

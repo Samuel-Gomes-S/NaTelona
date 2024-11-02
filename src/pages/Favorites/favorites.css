@@ -1,0 +1,40 @@
+.containerfav {
+  width: 100%;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+}
+
+.containerfav li {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containerfav span {
+  margin-right: 15px;
+}
+
+.containerfav a {
+  margin-right: 15px;
+  text-decoration: none;
+  cursor: pointer;
+  user-select: none;
+  border-radius: 4px;
+  background-color: rgb(228, 223, 223);
+  padding: 5px;
+}
+
+.containerfav a:hover {
+  transition: all 0.5s;
+  background-color: rgb(233, 248, 206);
+  color: #000000;
+}
+
+.containerfav a:active {
+  background-color: rgb(255, 0, 0);
+  color: #000000;
+}

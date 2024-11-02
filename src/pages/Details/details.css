@@ -1,0 +1,51 @@
+.containerDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 50px;
+}
+
+.containerDetails .movieImg {
+  padding: 5px 0;
+  display: flex;
+  width: 350px;
+  height: 90%;
+}
+
+#infoAverage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+#overview {
+  margin: 15px 0;
+  max-width: 350px;
+}
+
+#areaButtons {
+  padding: 15px 0px;
+  min-width: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.containerDetails a {
+  text-decoration: none;
+  width: 80px;
+  background-color: rgba(255, 0, 0, 0.055);
+  text-align: center;
+  color: #000;
+  cursor: pointer;
+  user-select: none;
+}
+
+.containerDetails a:hover {
+  width: 90px;
+  background-color: rgb(255, 145, 0);
+}
+.containerDetails a:active {
+  background-color: rgb(245, 203, 147);
+}
